@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Name: TPMS1_115B1C
 Address: 80:EA:CA:11:5B:1C,  
 Sensor Type: External,
@@ -38,3 +39,45 @@ Sensor: Rear Wheel,
                 0  1  2  3  4  5  6  7  8  9  10 11 12 13 14 15 16 17
                 00 01 81 EA CA 22 1B 84 E7 54 06 00 8D 07 00 00 62 00
 
+=======
+Name: TPMS1_115B1C
+Address: 80:EA:CA:11:5B:1C,  
+Sensor Type: External,
+Product Company: LEEPEE,
+Item Model Number: V101B1001,
+Sensor Location ID: Front Wheel,
+32-Bit UUID: 0x0x0201050303B0FB13FF - 32bit - 0D0954504D53315F313135423143
+                1  2  3  4  5  6  7  8  9  10 11 12 13 14 15 16 17  
+                01 80 EA CA 11 5B 1C EA 23 06 00 79 07 00 00 60 00
+                
+Byte 17: Alarm Flag
+Byte 16: Battery 
+Byte 15: Temperature Sensor (in C)
+Byte 14: ""
+Byte 13: ""
+Byte 12: ""
+Byte 11: Pressure Sensor (in kPA)
+Byte 10: ""
+Byte 9: ""
+Byte 8: ""
+Byte 7: Sensor Address ID
+Byte 6: ""
+Byte 5: ""
+Byte 4: Address Prefix
+Byte 3: ""
+Byte 2: Sensor Number
+Byte 1: Manufacturer
+Byte 0: ""
+
+
+Name: TPMS2_221B84
+Address: 81:EA:CA:22:1B:84
+Sensor Type: External,
+Product Company: LEEPEE,
+Item Model Number: V101B1001,
+Sensor: Rear Wheel,
+32-Bit UUID: 0x0201050303B0FB13FF - 32bit - 0D0954504D53325F323231423834
+                0  1  2  3  4  5  6  7  8  9  10 11 12 13 14 15 16 17
+                00 01 81 EA CA 22 1B 84 E7 54 06 00 8D 07 00 00 62 00
+
+>>>>>>> 54ff4641bf3ebca41c6ce39bf9a574071311a842
