@@ -1,0 +1,81 @@
+### Name: TPMS2_221B84
+Frame 5853: 59 bytes on wire (472 bits), 59 bytes captured (472 bits) on interface COM5-3.6, id 0
+    Interface id: 0 (COM5-3.6)
+        Interface name: COM5-3.6
+        Interface description: nRF Sniffer for Bluetooth LE COM5
+    Encapsulation type: nRF Sniffer for Bluetooth LE (186)
+    Arrival Time: Jun 17, 2022 16:42:27.894918000 Pacific Daylight Time
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1655509347.894918000 seconds
+    [Time delta from previous captured frame: 0.002005000 seconds]
+    [Time delta from previous displayed frame: 0.002005000 seconds]
+    [Time since reference or first frame: 73.415114000 seconds]
+    Frame Number: 5853
+    Frame Length: 59 bytes (472 bits)
+    Capture Length: 59 bytes (472 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: nordic_ble:btle:btcommon]
+nRF Sniffer for Bluetooth LE
+    Board: 5
+    Header Version: 1, Packet counter: 25763
+        Length of header: 6
+        Length of payload: 52
+        Protocol version: 1
+        Packet counter: 25763
+        Packet ID: 6
+    Length of packet: 10
+    Flags: 0x01
+        .... ...1 = CRC: Ok
+        .... ..0. = Reserved: 0
+        .... .0.. = Reserved: 0
+        .... 0... = Address Resolved: No
+        .000 .... = PHY: LE 1M (0)
+        0... .... = Reserved: 0
+    Channel Index: 39
+    RSSI: -65 dBm
+    Event counter: 0
+    Delta time (end to start): 1156µs
+    [Packet time (start to end): 344µs]
+Bluetooth Low Energy Link Layer
+    Access Address: 0x8e89bed6
+    Packet Header: 0x2106 (PDU Type: ADV_SCAN_IND, TxAdd: Public)
+        .... 0110 = PDU Type: 0x6 ADV_SCAN_IND
+        ...0 .... = Reserved: 0
+        ..0. .... = Reserved: 0
+        .0.. .... = Tx Address: Public
+        0... .... = Reserved: 0
+        Length: 33
+    <Length: 33>
+    Advertising Address: DialogSe_22:1b:84 (81:ea:ca:22:1b:84)
+    Advertising Data
+        Flags
+            Length: 2
+            Type: Flags (0x01)
+            000. .... = Reserved: 0x0
+            ...0 .... = Simultaneous LE and BR/EDR to Same Device Capable (Host): false (0x0)
+            .... 0... = Simultaneous LE and BR/EDR to Same Device Capable (Controller): false (0x0)
+            .... .1.. = BR/EDR Not Supported: true (0x1)
+            .... ..0. = LE General Discoverable Mode: false (0x0)
+            .... ...1 = LE Limited Discoverable Mode: true (0x1)
+        16-bit Service Class UUIDs
+            Length: 3
+            Type: 16-bit Service Class UUIDs (0x03)
+            UUID 16: Unknown (0xfbb0)
+        Manufacturer Specific
+            Length: 19
+            Type: Manufacturer Specific (0xff)
+            Company ID: TomTom International BV (0x0100)
+            Data: 81 ea ca 22 1b 84 ab da 05 00 d4 06 00 00 61 00
+                [Expert Info (Note/Undecoded): Undecoded]
+                    [Undecoded]
+                    <Message: Undecoded>
+                    [Severity level: Note]
+                    [Group: Undecoded]
+    CRC: 0x132e65
+
+### Hex dump of packet Sniffer
+0000   05 06 34 01 98 64 06 0a 01 27 43 00 00 84 04 00   ..4..d...'C.....
+0010   00 d6 be 89 8e 06 21 84 1b 22 ca ea 81 02 01 05   ......!.."......
+0020   03 03 b0 fb 13 ff 00 01 81 ea ca 22 1b 84 ab da   ..........."....
+0030   05 00 d4 06 00 00 61 00 c8 74 a6                  ......a..t.
